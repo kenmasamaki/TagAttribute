@@ -11,11 +11,13 @@ TagAttributeは、Unityのインスペクター上でタグ選択を簡単に行
 
 ## 使用例
 
+```csharp
 [SerializeField, Tag]
 private string tagName;
 
 [SerializeField, Tag]
 private List<string> tagNameList;
+```
 
 
 上記のように、`Tag`属性を付与したフィールドはインスペクター上でタグ選択が可能になります。
